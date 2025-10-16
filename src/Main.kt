@@ -164,5 +164,4 @@ fun main() {
     temperatures.filter { it.second < 0 }.forEach { (day, temp) ->
         println("$day: $temp°C")
     }
-
 }
