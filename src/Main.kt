@@ -70,11 +70,9 @@ fun main() {
     println("пароль: $password")
 
     // задание 5
-    // Ввод имени пользователя
     println("введите ваше имя:")
     val name = readLine() ?: ""
 
-    // Ввод трех ответов
     println("ответьте на три вопроса:")
 
     println("вопрос 1: Сколько лет?")
@@ -166,4 +164,5 @@ fun main() {
     temperatures.filter { it.second < 0 }.forEach { (day, temp) ->
         println("$day: $temp°C")
     }
+
 }
